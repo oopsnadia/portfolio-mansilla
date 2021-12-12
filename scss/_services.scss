@@ -1,0 +1,26 @@
+/* SERVICIOS */
+
+.section-services__card {
+  text-align: center;
+}
+
+.section-services__card--html {
+  box-shadow: 0px 5px 20px 0px $otrosColores1;
+  background-color: $otrosColores1;
+  color: $color1;
+}
+
+.section-services__card--css {
+  box-shadow: 0px 5px 20px 0px $otrosColores2;
+  background-color: $otrosColores2;
+}
+
+.section-services__card--ps {
+  box-shadow: 0px 5px 20px 0px $otrosColores3;
+  background-color: $otrosColores3;
+  color: $color1;
+}
+
+.section-services__picture {
+  height: 80px;
+}

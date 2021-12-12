@@ -1,0 +1,106 @@
+/*****  RESPONSIVE *****/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar__logo-text {
+    font-size: 25px;
+    letter-spacing: 0;
+    margin-left: 10px;
+  }
+
+  .section-about-me,
+  .section-services,
+  .section-education,
+  .section-my-work,
+  footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 856px) {
+  .navbar__menu-icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__logo {
+    display: none;
+  }
+  .navbar__menu {
+    font-size: 14px;
+  }
+  .navbar__menu-icon {
+    display: none;
+  }
+  .section-about-me__container,
+  .section-services__container,
+  .section-education__container,
+  .section-my-work__container,
+  .footer-contact__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-about-me__avatar-container {
+    margin: 25px auto 15px;
+  }
+  .section-about-me__card {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .section-about-me__card-info .button-primary {
+    margin: 0 auto;
+  }
+  .section-about-me__card-info {
+    margin: 0 0 40px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .section-about-me__card-skills {
+    margin: 0 0 20px;
+    width: 100%;
+  }
+  .section-services__card,
+  .section-education__card,
+  .section-my-work__card {
+    margin-bottom: 40px;
+  }
+  .footer-contact__info {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .footer-contact__form-container {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .section-about-me,
+  .section-services,
+  .section-education,
+  .section-my-work,
+  footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .navbar__menu {
+    display: none;
+  }
+
+  .navbar__section {
+    display: none;
+  }
+
+  .section-banner__avatar {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-height: 690px) {
+  .section-banner__scroll {
+    display: none;
+  }
+}

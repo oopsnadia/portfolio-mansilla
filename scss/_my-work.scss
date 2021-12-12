@@ -1,0 +1,44 @@
+/* MIS TRABAJOS */
+
+.section-my-work__container {
+  margin-bottom: 16px;
+}
+
+.section-my-work__picture {
+  width: 100%;
+  max-height: 140px;
+}
+
+.section-my-work__card {
+  position: relative;
+}
+
+.section-my-work__mask {
+  background: $otrosColores1;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  position: absolute;
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  color: $color1;
+}
+
+.section-my-work__card:hover .section-my-work__mask {
+  opacity: 0.9;
+}
+
+.section-my-work__title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.section-my-work__title a {
+  text-decoration: none;
+  color: $color1;
+}

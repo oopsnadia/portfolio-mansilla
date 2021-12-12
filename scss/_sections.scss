@@ -1,0 +1,46 @@
+/* SECCIONES */
+.section {
+  max-width: 1024px;
+  margin: 0 auto 100px;
+}
+
+.sections::-webkit-scrollbar {
+  display: none;
+}
+
+.sections-container {
+  max-width: 1024px;
+}
+
+.section__subtitle {
+  font-size: 32px;
+  color: $color2;
+  margin-bottom: 40px;
+}
+
+.section-about-me,
+.section-services,
+.section-education,
+.section-my-work,
+.contact {
+  padding-top: 60px;
+}
+
+.section-services__container,
+.section-education__container,
+.section-my-work__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-services__card,
+.section-education__card,
+.section-my-work__card {
+  margin-right: 16px;
+}
+
+.section-services__card:last-child,
+.section-education__card:last-child,
+.section-my-work__card:last-child {
+  margin-right: 0;
+}

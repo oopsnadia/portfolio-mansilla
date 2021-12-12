@@ -1,0 +1,78 @@
+/* BANNER */
+
+.section-banner {
+  background-image: url("img/fondo.svg");
+  background-color: $color2;
+  text-align: center;
+  height: 100vh;
+  min-height: 700px;
+}
+
+.section-banner__avatar {
+  width: 150px;
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+.section-banner__name {
+  color: $color1;
+  letter-spacing: 2px;
+}
+
+.section-banner__profesion {
+  color: $color1;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.section-banner__scroll {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  bottom: 32px;
+  align-items: center;
+  text-decoration: none;
+  transition: bottom 0.2s ease;
+}
+
+.section-banner__scroll:hover {
+  bottom: 40px;
+}
+
+.section-banner__scroll span {
+  color: $color1;
+  margin-bottom: 20px;
+}
+
+.section-banner__scroll-icon {
+  width: 16px;
+  margin: 0 auto;
+}
+
+.section-banner__item-icon {
+  width: 24px;
+  margin-left: 10px;
+}
+
+.section-banner__rrss-list {
+  list-style: none;
+  margin: 0 auto 50px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 300px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-banner__rrss-item {
+  transition: transform 0.5s ease;
+}
+
+.section-banner__rrss-item:hover {
+  transform: scale(1.2);
+}

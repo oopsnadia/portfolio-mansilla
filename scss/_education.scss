@@ -1,0 +1,52 @@
+/* EDUCACIÓN */
+
+.section-education__icon {
+  height: 20px;
+  width: 22px;
+  background: $color1;
+}
+
+.section-education__card-content {
+  border-left: 1px solid $color3;
+  flex-direction: column;
+  padding: 0 0 64px 32px;
+  position: relative;
+  display: flex;
+}
+
+.section-education__card-content:last-child {
+  padding-bottom: 20px;
+}
+
+.section-education__card-info {
+  margin-bottom: 10px;
+}
+
+.section-education__time {
+  margin-left: 10px;
+  color: #8b88b1;
+}
+
+.section-education__title {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 0 8px 0;
+}
+
+.section-education__subtitle {
+  color: $color2;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0 0 25px 0;
+  text-align: center;
+}
+
+.section-education__description {
+  margin: 0;
+  font-size: 17px;
+}
+
+.section-education__description2 {
+  font-size: 14px;
+  text-align: justify;
+}

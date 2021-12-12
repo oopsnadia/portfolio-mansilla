@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fredoka+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fredoka+One&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <!-- FIN DE FONTS-->
+
+    <!--ENLACES CDN AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--FIN DE ENLACES CDN AOS -->
+
+
+    <link rel="icon" href="img/favicon.png" type="image/png" sizes="32x32">
+
+    <title>Nadia Mansilla | Portfolio</title>
+    <meta name="description"
+        content="Portfolio web dedicado a la información como programadora y desarrolladora de software de Nadia Mansilla, con data sobre su experiencia académica" />
+</head>
+
+<body>
+
+    <!-- MENÚ / NAVBAR -->
+    <section class="navbar__section">
+        <div class="navbar__section-container">
+            <div class="navbar__logo">
+                <span class="navbar__logo-text">Nadia Mansilla</span>
+            </div>
+            <nav class="navbar__menu">
+                <ul class="navbar__menu-list">
+                    <li class="navbar__menu-list-item">
+                        <a href="#about-me" class="navbar__menu-link">
+                            <img class="navbar__menu-icon" src="img/user-solid.svg"
+                                alt="icono usuario de aplicación para enlace sobre mi información personal">Sobre mi
+                        </a>
+                    </li>
+                    <li class="navbar__menu-list-item">
+                        <a href="#services" class="navbar__menu-link">
+                            <img class="navbar__menu-icon" src="img/briefcase-solid.svg"
+                                alt="icono de un maletín para enlace de servicios">Servicios
+                        </a>
+                    </li>
+                    <li class="navbar__menu-list-item">
+                        <a href="#education" class="navbar__menu-link">
+                            <img class="navbar__menu-icon" src="img/graduation-cap-solid.svg"
+                                alt="icono de birrete para enlace de experiencia académica">Educación
+                        </a>
+                    </li>
+                    <li class="navbar__menu-list-item">
+                        <a href="#my-work" class="navbar__menu-link">
+                            <img class="navbar__menu-icon" src="img/layer-group-solid.svg"
+                                alt="icono de papeles apilados para enlace de mis trabajos">Mis trabajos
+                        </a>
+                    </li>
+                    <li class="navbar__menu-list-item">
+                        <a href="#contact" class="navbar__menu-link">
+                            <img class="navbar__menu-icon" src="img/comments-solid.svg"
+                                alt="icono de globos de conversación para enlace a mi contacto">Contacto
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- BANNER -->
+    <section class="sections">
+        <section id="banner" class="section-banner">
+            <img class="section-banner__avatar" src="img/avatar2.svg"
+                alt="icono en flat design de un usuario con una computadora" />
+            <div data-aos="zoom-in" data-aos-duration="1000">
+                <h1 class="section-banner__name">Nadia Mansilla</h1>
+            </div>
+            <h2 class="section-banner__profesion">Frontend Developer</h2>
+
+            <!-- ICONOS Y ENLANCES A MIS REDES SOCIALES -->
+            <ul class="section-banner__rrss-list">
+                <li class="section-banner__rrss-item">
+                    <a href="https://www.linkedin.com/in/nadiamansilla09/"><img class="section-banner__item-icon"
+                            src="img/linkedin-in-brands.svg" alt="icono para el enlace a la página linkedin" /></a>
+                </li>
+                <li class="section-banner__rrss-item">
+                    <a href="https://api.whatsapp.com/send?phone=+543413215150"><img class="section-banner__item-icon"
+                            src="img/wsp2.svg" alt="icono para el enlace a whatsapp" /></a>
+                </li>
+                <li class="section-banner__rrss-item">
+                    <a href="https://github.com/oopsnadia"><img class="section-banner__item-icon"
+                            src="img/github-brands.svg" alt="icono para el enlace a la página de github" /></a>
+                </li>
+                <li class="section-banner__rrss-item">
+                    <a href="#"><img class="section-banner__item-icon" src="img/instagram-brands.svg"
+                            alt="icono para el enlace al perfil de instagram" /></a>
+                </li>
+            </ul>
+
+            <!-- BOTÓN QUE LLEVA A LA SECCIÓN CONTACTO -->
+            <a href="#contact" class="button-primary">Contáctame</a>
+
+            <!-- ICONO DE SCROLL DOWN QUE LLEVA A LA SECCIÓN ABOUT ME -->
+            <a href="#about-me" class="section-banner__scroll">
+                <span>Scroll down</span>
+                <img class="section-banner__scroll-icon" src="img/scroll.png"
+                    alt="icono para desplazarse a las siguientes secciones del sitio" />
+            </a>
+        </section>
+
+        <!-- SECCION ABOUT ME -->
+        <section id="about-me" class="section section-about-me">
+            <div data-aos="fade-right">
+                <h3 class="section__subtitle">Sobre mí</h3>
+            </div>
+            <div class="section-about-me__container">
+                <div class="section-about-me__avatar-container">
+                    <img class="section-about-me__avatar" src="img/avatar2.svg"
+                        alt="icono en flat design de un usuario con una computadora" />
+                </div>
+                <div class="card section-about-me__card">
+                    <div class="section-about-me__card-info">
+                        <p></p>
+                        <button class="button-primary">
+                            <a href="https://drive.google.com/file/d/1BMuWp0J2YVTmdhan9uBEfy30c5DmPKMo/view?usp=sharing"
+                                target="_blank">
+                                Ver curriculum</button>
+                        </a>
+                    </div>
+                    <div class="section-about-me__card-skills">
+                        <div class="section-about-me__skill">
+                            <span>HTML</span>
+                            <div class="section-about-me__skill-bar">
+                                <div class="section-about-me__skill-bar--html"></div>
+                            </div>
+                        </div>
+                        <div class="section-about-me__skill">
+                            <span>CSS</span>
+                            <div class="section-about-me__skill-bar">
+                                <div class="section-about-me__skill-bar--css"></div>
+                            </div>
+                        </div>
+                        <div class="section-about-me__skill">
+                            <span>PHOTOSHOP</span>
+                            <div class="section-about-me__skill-bar">
+                                <div class="section-about-me__skill-bar--ps"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION DE MIS SERVICIOS  -->
+        <section id="services" class="section section-services">
+            <div data-aos="fade-right">
+                <h3 class="section__subtitle">Servicios</h3>
+            </div>
+            <div class="section-services__container">
+                <div data-aos="zoom-in" data-aos-duration="1300"
+                    class="card section-services__card section-services__card--html">
+                    <img class="section-services__picture" src="img/dev.svg"
+                        alt="icono de una web con el simbolo de html" />
+                    <h3 class="section-services__title">HTML</h3>
+                    <p class="section-services__description">Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                        aenean commodo ligula eget.</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="1300"
+                    class="card section-services__card section-services__card--css">
+                    <img class="section-services__picture" src="img/css.svg"
+                        alt="icono de un cohete espacial relacionado a los estilos en css" />
+                    <h3 class="section-services__title">CSS</h3>
+                    <p class="section-services__description">Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                        aenean commodo ligula eget.</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="1300"
+                    class="card section-services__card section-services__card--ps">
+                    <img class="section-services__picture" src="img/ps.svg"
+                        alt="icono de una bombilla de luz que representa las ideas en el diseño y experiencia de usuario" />
+                    <h3 class="section-services__title">PHOTOSHOP</h3>
+                    <p class="section-services__description">Lorem ipsum dolor sit amet consectetuer adipiscing elit
+                        aenean commodo ligula eget.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION SOBRE MI EDUCACION -->
+        <section id="education" class="section section-education">
+            <div data-aos="fade-right">
+                <h3 class="section__subtitle">Educación</h3>
+            </div>
+            <div class="section-education__container">
+                <div class="card section-education__card">
+                    <div class="section-education__card-content">
+                        <div class="section-education__card-info">
+                            <img class="section-education__icon" src="img/graduation-cap2.svg" alt="">
+                            <time class="section-education__time">2021 - actualidad</time>
+                        </div>
+                        <h3 class="section-education__title">Analista Universitaria en Sistemas</h3>
+                        <p class="section-education__description">Instituto Politécnico General San Martín</p>
+                        <p class="section-education__about">Aréa de estudio: Algoritmia, matemática discreta, talleres
+                            de programación (lenguajes procedurales, orientados a objetos y funcionales), arquitectura
+                            de las computadoras, sistemas operativos, teoría de las bases de datos, sistemas
+                            multimediales, metodologías para el desarrollo de software, Control de proyectos (metricas,
+                            riesgos, etc.), redes de computadoras configuran las ideas básicas del objeto de estudio de
+                            la carrera.</p>
+                    </div>
+                    <div class="section-education__card-content">
+                        <div class="section-education__card-info">
+                            <img class="section-education__icon" src="img/graduation-cap2.svg" alt="">
+                            <time class="section-education__time">2021 - actualidad</time>
+                        </div>
+                        <h3 class="section-education__title">Carrera de Desarrollo Front End</h3>
+                        <p class="section-education__description">Coder House</p>
+                        <p class="section-education__about">En esta carrera de Front End estoy aprendiendo a
+                            crear sitios web, y las mejores prácticas
+                            del diseño web, trabajando con HTML y CSS. Además, aprenderé a programar con Javascript y
+                            React Js, lo cual me permitirá realizar sitios más complejos, dinámicos y escalables.</p>
+                    </div>
+
+                </div>
+                <div class="card section-education__card">
+
+                    <div class="section-education__card-content">
+                        <div class="section-education__card-info">
+                            <img class="section-education__icon" src="img/graduation-cap2.svg" alt="">
+                            <time class="section-education__time">2021 - actualidad</time>
+                        </div>
+                        <h3 class="section-education__title">Desarrollo Web Full Stack</h3>
+                        <p class="section-education__description">Programa Codo a Codo 4.0</p>
+                    </div>
+                    <div class="section-education__card-content">
+                        <div class="section-education__card-info">
+                            <img class="section-education__icon" src="img/graduation-cap2.svg" alt="">
+                            <time class="section-education__time">Julio 2021 - Septiembre 2021</time>
+                        </div>
+                        <h3 class="section-education__title">Curso de Programación "Fundamentals"</h3>
+                        <p class="section-education__description">i2T Soluciones en Software</p>
+
+                    </div>
+                    <div class="section-education__card-content">
+                        <div class="section-education__card-info">
+                            <img class="section-education__icon" src="img/graduation-cap2.svg" alt="">
+                            <time class="section-education__time">Abril 2021 - Julio 2021</time>
+                        </div>
+                        <h3 class="section-education__title">Inglés para Desarrollo de Software</h3>
+                        <p class="section-education__description">Polotic Misiones</p>
+                    </div>
+                    <div class="section-education__card-content">
+                        <div class="section-education__card-info">
+                            <img class="section-education__icon" src="img/graduation-cap2.svg" alt="">
+                            <time class="section-education__time">Mayo 2021 - Junio 2021</time>
+                        </div>
+                        <h3 class="section-education__title">Curso Inicial en HTML y CSS</h3>
+                        <p class="section-education__description">Rocket Code</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SOBRE MIS TRABAJOS -->
+        <section id="my-work" class="section section-my-work">
+            <div data-aos="fade-right">
+                <h3 class="section__subtitle">Mis trabajos</h3>
+            </div>
+            <div class="section-my-work__container">
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="img/trabajo-1.svg"
+                        alt="imagen de la web x enfocada a la venta de y">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">
+                            <a href="https://oopsnadia.github.io/jonasbrothers" target="_blank">
+                                JONAS BROTHERS
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="img/trabajo-2.svg"
+                        alt="imagen de la web x enfocada a la venta de y">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">COMING SOON</h3>
+                    </div>
+                </div>
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="img/trabajo-3.svg"
+                        alt="imagen de la web x enfocada a la venta de y">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">COMING SOON</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="section-my-work__container">
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="img/trabajo-4.svg"
+                        alt="imagen de la web x enfocada a la venta de y">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">COMING SOON</h3>
+                    </div>
+                </div>
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="img/trabajo-5.svg"
+                        alt="imagen de la web x enfocada a la venta de y">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">COMING SOON</h3>
+                    </div>
+                </div>
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="img/trabajo-6.svg"
+                        alt="imagen de la web x enfocada a la venta de y">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">COMING SOON</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- FOOTER / CONTACTO -->
+    <footer id="contact">
+        <div class="footer-contact">
+            <div data-aos="fade-right">
+                <h3 class="section__subtitle">Contáctame</h3>
+            </div>
+            <div class="footer-contact__container">
+                <div class="footer-contact__info">
+                    <h4>¡Enviame un mensaje!</h4>
+                    <p>¡Hola! ¿Cómo estás? 👋🏼 Gracias por visitar mi sitio. Aquí podrás dejarme cualquier comentario,
+                        duda o consulta que quieras hacerme. </p>
+                </div>
+                <div class="footer-contact__form-container">
+                    <form class="footer-contact__form">
+                        <div class="footer-contact__form-atributes-group">
+                            <input class="form-input" type="text" name="name" placeholder="Nombre" />
+                            <input class="form-input" type="text" name="email" placeholder="Email" />
+                        </div>
+                        <textarea class="form-input" name="message" placeholder="Mensaje"></textarea>
+                        <input type="submit" class="button-primary" value="Enviar" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPT AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- FIN DE SCRIPT AOS -->
+</body>
+
+</html>
