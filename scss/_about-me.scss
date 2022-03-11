@@ -53,18 +53,42 @@
 }
 
 .section-about-me__skill-bar--css {
-  background-color: $otrosColores2;
+  background-color: $otrosColores7;
   width: 90%;
   height: 8px;
   border-radius: 16px;
 }
 
 .section-about-me__skill-bar--ps {
-  background-color: $otrosColores3;
+  background-color: $otrosColores5;
   width: 70%;
   height: 8px;
   border-radius: 16px;
 }
+
+.section-about-me__skill-bar--wordpress {
+  background-color: $otrosColores7;
+  width: 70%;
+  height: 8px;
+  border-radius: 16px;
+}
+
+
+.section-about-me__skill-bar--js {
+  background-color: $otrosColores6;
+  width: 89%;
+  height: 8px;
+  border-radius: 16px;
+}
+
+
+.section-about-me__skill-bar--react {
+  background-color: $otrosColores7;
+  width: 70%;
+  height: 8px;
+  border-radius: 16px;
+}
+
 
 .section-about-me__card-info {
   margin: 0 0 16px 0;

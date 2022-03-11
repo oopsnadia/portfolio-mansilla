@@ -8,19 +8,41 @@
   box-shadow: 0px 5px 20px 0px $otrosColores1;
   background-color: $otrosColores1;
   color: $color1;
+  margin-bottom: 20px;
 }
 
 .section-services__card--css {
-  box-shadow: 0px 5px 20px 0px $otrosColores2;
-  background-color: $otrosColores2;
+  box-shadow: 0px 5px 20px 0px $otrosColores7;
+  background-color: $otrosColores7;
+  color: $color1;
+  margin-bottom: 20px;
 }
 
 .section-services__card--ps {
-  box-shadow: 0px 5px 20px 0px $otrosColores3;
-  background-color: $otrosColores3;
+  box-shadow: 0px 5px 20px 0px $otrosColores5;
+  background-color: $otrosColores5;
+  color: $color1;
+  margin-bottom: 20px;
+}
+
+.section-services__card--wordpress {
+  box-shadow: 0px 5px 20px 0px $otrosColores7;
+  background-color: $otrosColores7;
+  color: $color1;
+}
+
+.section-services__card--js {
+  box-shadow: 0px 5px 20px 0px $otrosColores6;
+  background-color: $otrosColores6;
+}
+
+.section-services__card--react {
+  box-shadow: 0px 5px 20px 0px $otrosColores7;
+  background-color: $otrosColores7;
   color: $color1;
 }
 
 .section-services__picture {
   height: 80px;
 }
+
