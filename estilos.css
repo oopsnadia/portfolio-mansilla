@@ -220,40 +220,39 @@ body {
 }
 
 .section-services__card--html {
-  box-shadow: 0px 5px 20px 0px #ff8c8c;
-  background-color: #ff8c8c;
+  box-shadow: 0px 5px 20px 0px #f78393;
+  background-color: #f78393;
   color: white;
   margin-bottom: 20px;
 }
 
 .section-services__card--css {
-  box-shadow: 0px 5px 20px 0px rgba(65, 92, 182, 0.774);
-  background-color: rgba(65, 92, 182, 0.774);
-  color: white;
+  box-shadow: 0px 5px 20px 0px #89e7ff;
+  background-color: #89e7ff;
   margin-bottom: 20px;
 }
 
 .section-services__card--ps {
-  box-shadow: 0px 5px 20px 0px #8fdbff;
-  background-color: #8fdbff;
+  box-shadow: 0px 5px 20px 0px #ca92eb;
+  background-color: #ca92eb;
   color: white;
   margin-bottom: 20px;
 }
 
 .section-services__card--wordpress {
-  box-shadow: 0px 5px 20px 0px rgba(65, 92, 182, 0.774);
-  background-color: rgba(65, 92, 182, 0.774);
+  box-shadow: 0px 5px 20px 0px #78c7ba;
+  background-color: #78c7ba;
   color: white;
 }
 
 .section-services__card--js {
-  box-shadow: 0px 5px 20px 0px #fff19f;
-  background-color: #fff19f;
+  box-shadow: 0px 5px 20px 0px #ffe884;
+  background-color: #ffe884;
 }
 
 .section-services__card--react {
-  box-shadow: 0px 5px 20px 0px rgba(65, 92, 182, 0.774);
-  background-color: rgba(65, 92, 182, 0.774);
+  box-shadow: 0px 5px 20px 0px rgba(69, 72, 228, 0.774);
+  background-color: rgba(69, 72, 228, 0.774);
   color: white;
 }
 
@@ -308,42 +307,42 @@ body {
 }
 
 .section-about-me__skill-bar--html {
-  background-color: #ff8c8c;
+  background-color: #f78393;
   width: 95%;
   height: 8px;
   border-radius: 16px;
 }
 
 .section-about-me__skill-bar--css {
-  background-color: rgba(65, 92, 182, 0.774);
+  background-color: #89e7ff;
   width: 90%;
   height: 8px;
   border-radius: 16px;
 }
 
 .section-about-me__skill-bar--ps {
-  background-color: #8fdbff;
-  width: 70%;
+  background-color: #ca92eb;
+  width: 79%;
   height: 8px;
   border-radius: 16px;
 }
 
 .section-about-me__skill-bar--wordpress {
-  background-color: rgba(65, 92, 182, 0.774);
+  background-color: #78c7ba;
   width: 70%;
   height: 8px;
   border-radius: 16px;
 }
 
 .section-about-me__skill-bar--js {
-  background-color: #fff19f;
+  background-color: #ffe884;
   width: 89%;
   height: 8px;
   border-radius: 16px;
 }
 
 .section-about-me__skill-bar--react {
-  background-color: rgba(65, 92, 182, 0.774);
+  background-color: rgba(69, 72, 228, 0.774);
   width: 70%;
   height: 8px;
   border-radius: 16px;
@@ -422,7 +421,7 @@ body {
 }
 
 .section-my-work__mask {
-  background: #9eb4ff;
+  background: #ca92eb;
   justify-content: center;
   align-items: center;
   border-radius: 16px;
