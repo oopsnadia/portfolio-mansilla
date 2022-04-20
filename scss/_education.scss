@@ -9,13 +9,19 @@
 .section-education__card-content {
   border-left: 1px solid $color3;
   flex-direction: column;
-  padding: 0 0 64px 32px;
+  padding: 0 0 34px 32px;
   position: relative;
   display: flex;
 }
 
+.section-education__card-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .section-education__card-content:last-child {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .section-education__card-info {
@@ -49,4 +55,9 @@
 .section-education__description2 {
   font-size: 14px;
   text-align: justify;
+}
+
+.section-education__about {
+  font-size: 15px;
+  color: #adadad;
 }

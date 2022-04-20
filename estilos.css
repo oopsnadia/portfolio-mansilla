@@ -246,8 +246,8 @@ body {
 }
 
 .section-services__card--js {
-  box-shadow: 0px 5px 20px 0px #ffe884;
-  background-color: #ffe884;
+  box-shadow: 0px 5px 20px 0px rgb(255, 232, 132);
+  background-color: rgb(255, 232, 132);
 }
 
 .section-services__card--react {
@@ -329,13 +329,13 @@ body {
 
 .section-about-me__skill-bar--wordpress {
   background-color: #78c7ba;
-  width: 70%;
+  width: 30%;
   height: 8px;
   border-radius: 16px;
 }
 
 .section-about-me__skill-bar--js {
-  background-color: #ffe884;
+  background-color: rgb(255, 232, 132);
   width: 89%;
   height: 8px;
   border-radius: 16px;
@@ -364,13 +364,19 @@ body {
 .section-education__card-content {
   border-left: 1px solid #ff17d8;
   flex-direction: column;
-  padding: 0 0 64px 32px;
+  padding: 0 0 34px 32px;
   position: relative;
   display: flex;
 }
 
+.section-education__card-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .section-education__card-content:last-child {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .section-education__card-info {
@@ -406,6 +412,11 @@ body {
   text-align: justify;
 }
 
+.section-education__about {
+  font-size: 15px;
+  color: #adadad;
+}
+
 /* MIS TRABAJOS */
 .section-my-work__container {
   margin-bottom: 16px;
@@ -428,12 +439,19 @@ body {
   position: absolute;
   cursor: pointer;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100%;
   width: 100%;
   opacity: 0;
   left: 0;
   top: 0;
   color: white;
+}
+.section-my-work__mask p {
+  text-align: center;
+  padding: 15px;
+  font-size: 15px;
 }
 
 .section-my-work__card:hover .section-my-work__mask {
@@ -448,6 +466,10 @@ body {
 .section-my-work__title a {
   text-decoration: none;
   color: white;
+}
+
+.section-my-work__description {
+  text-align: center;
 }
 
 /* BOTONES */
